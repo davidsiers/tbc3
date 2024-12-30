@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const events = () => {
+const Page = () => {
   return (
     <View>
       <Text>events</Text>
@@ -9,6 +9,6 @@ const events = () => {
   )
 }
 
-export default events
+export default Page;
 
 const styles = StyleSheet.create({})

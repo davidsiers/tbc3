@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const sermons = () => {
+const Page = () => {
   return (
     <View>
       <Text>sermons</Text>
@@ -9,6 +9,6 @@ const sermons = () => {
   )
 }
 
-export default sermons
+export default Page;
 
 const styles = StyleSheet.create({})
