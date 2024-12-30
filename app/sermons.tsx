@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const index = () => {
+const sermons = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>sermons</Text>
     </View>
   )
 }
 
-export default index
+export default sermons
 
 const styles = StyleSheet.create({})
