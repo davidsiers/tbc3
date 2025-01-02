@@ -1,0 +1,334 @@
+{
+  "ID": 6329,
+  "post_author": "2",
+  "post_date": "2021-09-11 21:17:49",
+  "post_date_gmt": "2021-09-12 04:17:49",
+  "post_content": "<p><strong>Requirement:</strong> Must attend or serve in the midweek service and have a parental permission form to participate.</p>\n<p>On the first Wednesday of each month, following the midweek service, teens are invited to Pastor David's house to participate in an Xbox Series S competition to determine the best player. The only requirement is that teens obtain permission from their parents and arrange for a ride home from Pastor David's house. There is no specified end time for this activity; it will continue for as long as the parents of the teens allow.</p>\n<p><strong>Pastor David's Address:</strong><br />\n6424 E Nelson Dr.<br />\nTucson, AZ 85730</p>\n",
+  "post_title": "Gaming Night",
+  "post_excerpt": "",
+  "post_status": "publish",
+  "comment_status": "open",
+  "ping_status": "closed",
+  "post_password": "",
+  "post_name": "gaming-nights",
+  "to_ping": "",
+  "pinged": "",
+  "post_modified": "2024-12-04 08:25:24",
+  "post_modified_gmt": "2024-12-04 15:25:24",
+  "post_content_filtered": "",
+  "post_parent": 0,
+  "guid": "https://www.tucsonbaptist.com/?post_type=ctc_event&#038;p=6329",
+  "menu_order": 0,
+  "post_type": "ctc_event",
+  "post_mime_type": "",
+  "comment_count": "0",
+  "filter": "raw",
+  "featured_image": "https://www.tucsonbaptist.com/wp-content/uploads/2021/09/gaming-nights.jpg",
+  "categories": [
+      {
+          "term_id": 90,
+          "name": "Student Ministry",
+          "slug": "student-ministry",
+          "term_group": 0,
+          "term_taxonomy_id": 90,
+          "taxonomy": "ctc_event_category",
+          "description": "",
+          "parent": 0,
+          "count": 72,
+          "filter": "raw"
+      }
+  ],
+  "primary_category": {
+      "term_id": 90,
+      "name": "Student Ministry",
+      "slug": "student-ministry",
+      "term_group": 0,
+      "term_taxonomy_id": 90,
+      "taxonomy": "ctc_event_category",
+      "description": "",
+      "parent": 0,
+      "count": 72,
+      "filter": "raw"
+  },
+  "start_date_time": "2025-01-01T00:00:00-0700",
+  "end_date_time": "2025-01-01T00:00:00-0700",
+  "start_date": "2025-01-01T00:00:00-0700",
+  "end_date": "2025-01-01T00:00:00-0700",
+  "custom_fields": {
+      "inline_featured_image": [
+          "0"
+      ],
+      "_edit_lock": [
+          "1733325790:2"
+      ],
+      "_edit_last": [
+          "2"
+      ],
+      "_thumbnail_id": [
+          "6330"
+      ],
+      "_ctc_event_start_date": [
+          "2025-01-01"
+      ],
+      "_ctc_event_end_date": [
+          "2025-01-01"
+      ],
+      "_ctc_event_start_time": [
+          ""
+      ],
+      "_ctc_event_end_time": [
+          ""
+      ],
+      "_ctc_event_hide_time_range": [
+          ""
+      ],
+      "_ctc_event_time": [
+          ""
+      ],
+      "_ctc_event_recurrence": [
+          "monthly"
+      ],
+      "_ctc_event_recurrence_weekly_interval": [
+          "2"
+      ],
+      "_ctc_event_recurrence_weekly_type": [
+          ""
+      ],
+      "_ctc_event_recurrence_weekly_day": [
+          ""
+      ],
+      "_ctc_event_recurrence_monthly_interval": [
+          "1"
+      ],
+      "_ctc_event_recurrence_monthly_type": [
+          "week"
+      ],
+      "_ctc_event_recurrence_monthly_week": [
+          "1"
+      ],
+      "_ctc_event_recurrence_end_date": [
+          ""
+      ],
+      "_ctc_event_excluded_dates": [
+          ""
+      ],
+      "_ctc_event_venue": [
+          "Pastor David's House"
+      ],
+      "_ctc_event_address": [
+          "6424 E Nelson Dr,\r\nTucson, AZ 85730"
+      ],
+      "_ctc_event_show_directions_link": [
+          "1"
+      ],
+      "_ctc_event_map_lat": [
+          "32.1883274"
+      ],
+      "_ctc_event_map_lng": [
+          "-110.8553152"
+      ],
+      "_ctc_event_map_type": [
+          "ROADMAP"
+      ],
+      "_ctc_event_map_zoom": [
+          "13"
+      ],
+      "_ctc_event_registration_url": [
+          "https://tucsonbaptist.shelbynextchms.com/external/form/774e2552-29d8-4ba0-9e5b-0a0cfbba1930"
+      ],
+      "_ctcom_banner_image_brightness": [
+          ""
+      ],
+      "_ctcom_banner_image_opacity": [
+          ""
+      ],
+      "_ctcom_gallery_exclude": [
+          ""
+      ],
+      "_yoast_wpseo_content_score": [
+          "60"
+      ],
+      "_yoast_wpseo_estimated-reading-time-minutes": [
+          "1"
+      ],
+      "_yoast_wpseo_opengraph-title": [
+          "Gaming Nights - After Midweek Service"
+      ],
+      "_yoast_wpseo_opengraph-image": [
+          "https://www.tucsonbaptist.com/wp-content/uploads/2021/09/gaming-nights.jpg"
+      ],
+      "_yoast_wpseo_opengraph-image-id": [
+          "6330"
+      ],
+      "_yoast_wpseo_twitter-title": [
+          "Gaming Nights - After Midweek Service"
+      ],
+      "_yoast_wpseo_twitter-image": [
+          "https://www.tucsonbaptist.com/wp-content/uploads/2021/09/gaming-nights.jpg"
+      ],
+      "_yoast_wpseo_twitter-image-id": [
+          "6330"
+      ],
+      "event_contact": [
+          "3320"
+      ],
+      "_event_contact": [
+          "field_602c0df99337f"
+      ],
+      "register_button_text": [
+          "Parental Permission Form"
+      ],
+      "_register_button_text": [
+          "field_6054cf5439c8f"
+      ],
+      "register_button_icon": [
+          "document"
+      ],
+      "_register_button_icon": [
+          "field_6054d177e4aa9"
+      ],
+      "register_button_fill": [
+          "solid"
+      ],
+      "_register_button_fill": [
+          "field_6084a6ac8721f"
+      ],
+      "register_button_color": [
+          "primary"
+      ],
+      "_register_button_color": [
+          "field_6084a73a87220"
+      ],
+      "event_button_2_register_button_2_url": [
+          "https://goo.gl/maps/UEQ51RkLhEnceXPo7"
+      ],
+      "_event_button_2_register_button_2_url": [
+          "field_6084aa6d4adfc"
+      ],
+      "event_button_2_register_button_2_text": [
+          "Directions to Siers' Home"
+      ],
+      "_event_button_2_register_button_2_text": [
+          "field_6084aa954adfd"
+      ],
+      "event_button_2_register_button_2_icon": [
+          "map"
+      ],
+      "_event_button_2_register_button_2_icon": [
+          "field_6084aabf4adfe"
+      ],
+      "event_button_2_register_button_2_fill": [
+          "outline"
+      ],
+      "_event_button_2_register_button_2_fill": [
+          "field_6084aaf24adff"
+      ],
+      "event_button_2_register_button_2_color": [
+          "primary"
+      ],
+      "_event_button_2_register_button_2_color": [
+          "field_6084ab204ae00"
+      ],
+      "event_button_2": [
+          ""
+      ],
+      "_event_button_2": [
+          "field_6084aa1e4adfb"
+      ],
+      "_ctc_event_start_date_start_time": [
+          "2025-01-01 00:00:00"
+      ],
+      "_ctc_event_start_date_end_time": [
+          "2025-01-01 00:00:00"
+      ],
+      "_ctc_event_end_date_start_time": [
+          "2025-01-01 00:00:00"
+      ],
+      "_ctc_event_end_date_end_time": [
+          "2025-01-01 00:00:00"
+      ],
+      "_yoast_wpseo_primary_ctc_event_category": [
+          "90"
+      ],
+      "event_button_3_register_button_3_url": [
+          ""
+      ],
+      "_event_button_3_register_button_3_url": [
+          "field_6084abe79e2bd"
+      ],
+      "event_button_3_register_button_3_text": [
+          ""
+      ],
+      "_event_button_3_register_button_3_text": [
+          "field_6084abe79e2be"
+      ],
+      "event_button_3_register_button_3_icon": [
+          ""
+      ],
+      "_event_button_3_register_button_3_icon": [
+          "field_6084abe79e2bf"
+      ],
+      "event_button_3_register_button_3_fill": [
+          "outline"
+      ],
+      "_event_button_3_register_button_3_fill": [
+          "field_6084abe79e2c0"
+      ],
+      "event_button_3_register_button_3_color": [
+          "primary"
+      ],
+      "_event_button_3_register_button_3_color": [
+          "field_6084abe79e2c1"
+      ],
+      "event_button_3": [
+          ""
+      ],
+      "_event_button_3": [
+          "field_6084abe79e2bc"
+      ],
+      "_yoast_wpseo_wordproof_timestamp": [
+          ""
+      ],
+      "_monsterinsights_sitenote_active": [
+          "0"
+      ],
+      "event_button_4_register_button_4_url": [
+          ""
+      ],
+      "_event_button_4_register_button_4_url": [
+          "field_6084ac339e2c3"
+      ],
+      "event_button_4_register_button_4_text": [
+          ""
+      ],
+      "_event_button_4_register_button_4_text": [
+          "field_6084ac339e2c4"
+      ],
+      "event_button_4_register_button_4_icon": [
+          ""
+      ],
+      "_event_button_4_register_button_4_icon": [
+          "field_6084ac339e2c5"
+      ],
+      "event_button_4_register_button_4_fill": [
+          "outline"
+      ],
+      "_event_button_4_register_button_4_fill": [
+          "field_6084ac339e2c6"
+      ],
+      "event_button_4_register_button_4_color": [
+          "primary"
+      ],
+      "_event_button_4_register_button_4_color": [
+          "field_6084ac339e2c7"
+      ],
+      "event_button_4": [
+          ""
+      ],
+      "_event_button_4": [
+          "field_6084ac339e2c2"
+      ],
+      "_wpml_media_has_media": [
+          "1"
+      ]
+  }
