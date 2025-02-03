@@ -13,6 +13,7 @@ export default function RootLayout() {
       }} />
     <Tabs.Screen name="events" options={{
       title: 'Events',
+      headerShown: false,
       tabBarIcon: ({color, size}) => 
         <Ionicons name="albums" size={size} color={color} />
       }} />

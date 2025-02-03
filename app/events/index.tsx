@@ -9,6 +9,7 @@ const Page = () => {
   const [events, setEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+  const [error, setError] = useState('');
 
   const fetchEvents = async () => {
     setLoading(true);
@@ -19,6 +20,7 @@ const Page = () => {
       setEvents(data);
     } catch (error) {
       console.log(error);
+      setError('An error occurred. Please try again later.');
     }
     setLoading(false);
     setRefreshing(false);
@@ -28,21 +30,31 @@ const Page = () => {
     fetchEvents();
   } ,[]);
 
+  const renderItem = ({ item }: {item:Event}) => {
+    return <EventItem item={item} />
+  };
+
   const onRefresh = () => {
     setRefreshing(true);
     fetchEvents();
   }
+
+  const refreshControl = (
+    <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+  );
+
+  const listEmptyComponent = (
+    <ListEmptyComponent loading={loading} message='No Events Found.' />
+  )
 
   return (
     <View style={styles.container}>
       <FlatList
         data={events}
         keyExtractor={item => item.ID.toString()}
-        renderItem={({ item }) => <EventItem item={item} />}
-        refreshControl={
-          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-        }
-        ListEmptyComponent={<ListEmptyComponent loading={loading} message='No Events Found.' />}
+        renderItem={renderItem}
+        refreshControl={refreshControl}
+        ListEmptyComponent={listEmptyComponent}
       />
     </View>
   )
