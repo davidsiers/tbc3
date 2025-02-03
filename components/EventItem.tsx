@@ -9,15 +9,29 @@ const EventItem: React.FC<{ item: Event }> = ({ item }) => {
     return dayjs(dateString).format('MMMM D');
   };
 
+  const primaryColor = () => {
+    if (item.category_primary_color) {
+        return item.category_primary_color;
+      }
+    return '#fff';
+  }
+
+  const accentColor = () => {
+    if (item.category_accent_color) {
+        return item.category_accent_color;
+      }
+    return '#000';
+  }
+
   return (
     <Link href={`/events/${item.ID}`} asChild>
       <TouchableOpacity>
-        <View style={styles.eventItem}>
-          <Text style={styles.eventTitle}>{item.post_title}</Text>
+      <View style={[styles.eventItem, { backgroundColor: primaryColor() }]}>
+          <Text style={[styles.eventTitle, { color: accentColor() }]}>{item.post_title}</Text>
           {formatDate(item.start_date) != formatDate(item.end_date) ? (
-            <Text style={styles.eventDate}>{formatDate(item.start_date)} - {formatDate(item.end_date)}</Text>
+            <Text style={[styles.eventDate, { color: accentColor() }]}>{formatDate(item.start_date)} - {formatDate(item.end_date)}</Text>
           ) : (
-            <Text style={styles.eventDate}>{formatDate(item.start_date)}</Text>
+            <Text style={[styles.eventDate, { color: accentColor() }]}>{formatDate(item.start_date)}</Text>
           )}
         </View>
       </TouchableOpacity>
@@ -43,6 +57,6 @@ const styles = StyleSheet.create({
   },
   eventDate: {
     fontSize: 16,
-    color: 'gray',
+    opacity: .8
   }
 })

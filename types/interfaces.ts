@@ -9,6 +9,8 @@ export interface Category {
     parent: number;
     count: number;
     filter: string;
+    category_primary_color?: string;
+    category_accent_color?: string;
   }
   
 export interface CustomFields {
@@ -138,5 +140,7 @@ export interface Event {
     end_date_time: string;
     start_date: string;
     end_date: string;
+    category_primary_color?: string;
+    category_accent_color?: string;
     custom_fields: CustomFields;
   }

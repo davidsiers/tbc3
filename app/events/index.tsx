@@ -49,7 +49,9 @@ const Page = () => {
 
   return (
     <View style={styles.container}>
+      <Text>Filter</Text>
       <FlatList
+        style={styles.eventsContainer}
         data={events}
         keyExtractor={item => item.ID.toString()}
         renderItem={renderItem}
@@ -66,5 +68,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
+  },
+  eventsContainer: {
+    backgroundColor: '#fff',
+    marginTop: 10,
+    paddingTop: 8,
+    borderTopEndRadius: 30,
+    borderTopStartRadius: 30,
   }
 })
